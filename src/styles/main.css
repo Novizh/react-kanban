@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&display=swap');
+
+.bg-custom {
+    background-color: #A077D9;
+}
+
+.btn-custom {
+    background-color: #272C8C;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    background-image: url('../images/aurora.png');
+}
+
+.container-fluid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.collapse {
+    justify-content: flex-end;
+}
+
+.card {
+    height: 85vh;
+    width: 24%;
+    opacity: 0.95;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.card-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-footer {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.add-form {
+    cursor: alias;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.register, .login, .edit-task {
+    height: 100%;
+    width: 100%;
+}
+
+.dropdown-item {
+    cursor: pointer;
+}
