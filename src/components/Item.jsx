@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Item() {
+function Task() {
     return(
         <div className="card-header mt-1">
             <p>Task Title</p>
@@ -25,4 +25,4 @@ function Item() {
     )
 }
 
-export default Item;
+export default Task;
