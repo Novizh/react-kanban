@@ -10,11 +10,11 @@ function AddForm() {
             <div className="card-footer add-form">
                 <form className="mw-100">
                     <div className="mb-3">
-                        <label for="title" className="form-label">Task Title</label>
+                        <label htmlFor="title" className="form-label">Task Title</label>
                         <input name="title" type="text" className="form-control" />
                     </div>
                     <div className="mb-3">
-                        <label for="description" className="form-label">Description</label>
+                        <label htmlFor="description" className="form-label">Description</label>
                         <input name="description" type="text" className="form-control" />
                     </div>
                     <button type="submit" className="btn btn-primary mb-3 mx-1">Add</button>

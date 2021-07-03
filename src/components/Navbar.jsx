@@ -46,7 +46,7 @@ function Navbar() {
                                         <Link className="nav-link btn btn-custom text-light mx-1" to="/">Home</Link>
                                     </li>
                                     <li className="nav-item">
-                                        <Link className="nav-link btn btn-custom text-light mx-1" onClick={() => handleLogout()}>Logout</Link>
+                                        <a className="nav-link btn btn-custom text-light mx-1" href="/#" onClick={() => handleLogout()}>Logout</a>
                                     </li>
                                 </React.Fragment>
                             ) : (
