@@ -30,7 +30,7 @@ function Login() {
     const [ user, setUser ] = useState({
         email: '',
         password: ''
-    })
+    });
 
     function handleChange(event) {
         const name = event.target.name
