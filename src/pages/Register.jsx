@@ -28,7 +28,7 @@ function Register() {
         username: '',
         email: '',
         password: ''
-    })
+    });
 
     function handleChange(event) {
         const name = event.target.name
