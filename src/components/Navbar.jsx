@@ -22,7 +22,8 @@ toastr.options = {
 function Navbar() {
     const history = useHistory();
 
-    function handleLogout() {
+    function handleLogout(event) {
+        event.preventDefault();
         localStorage.clear();
         toastr.success('Logout successful!');
         history.push(`/login`);
@@ -46,7 +47,7 @@ function Navbar() {
                                         <Link className="nav-link btn btn-custom text-light mx-1" to="/">Home</Link>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link btn btn-custom text-light mx-1" href="/#" onClick={() => handleLogout()}>Logout</a>
+                                        <a className="nav-link btn btn-custom text-light mx-1" href="/#" onClick={(event) => handleLogout(event)}>Logout</a>
                                     </li>
                                 </React.Fragment>
                             ) : (

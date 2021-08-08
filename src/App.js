@@ -20,7 +20,7 @@ function App() {
                     <RouteGuard exact path ="/">
                         <Home />
                     </RouteGuard>
-                    <Route path ="/tasks/:taskId">
+                    <Route path ="/tasks/:id">
                         <EditForm />
                     </Route>
                 </Switch>
